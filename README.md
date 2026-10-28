@@ -40,3 +40,5 @@ A Salmon index was built:```salmon index -t -k 31 -i ```.
 The real RNA-seq reads were directly quantified against this index: ``` salmon quant -i -l A -1 -2 -o```.
 
 The transcript ID and TPM columns were extracted from ```quant.sf```.
+
+This work is published on Briefs in Bioinformatics, and the link is https://doi.org/10.1093/bib/bbag267.
